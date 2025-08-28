@@ -1,0 +1,30 @@
+name: phoneshop_app
+publish_to: none
+description: Clean Flutter app with Splash, Login, Register, Home (BottomNav), Cart, and Profile.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.3.2
+  cupertino_icons: ^1.0.6
+  email_validator: ^2.1.17
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
+    - assets/Icon/
+    - assets/video/
+
+ 
